@@ -4,12 +4,14 @@ function myFunction() {
     document.getElementById('demo').innerHTML = "Paragraph Changed";
 } 
 
-//Defining variables
+//Defining variables                                                                                                                                                                                                          
+var x= myFunction(5,6) // Function is called, return value will end up in x
 
-var x = 5;
-var y = 6;
-var z = x + y;
-    
+function myfunction(a,b) {
+    return a*b;             // Function returns the product of a and b
+}
+
+
 //This function chnges the text in the math paragrapgh
     
 function mathFunction() {
